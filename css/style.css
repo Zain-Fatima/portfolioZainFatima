@@ -4871,3 +4871,30 @@ a#relatedd {
     color: #8031eb;
     background-color: #A689E1;
 }
+
+@media (max-width: 768px) { 
+    .age li {
+        margin-bottom: 20px; 
+    }
+    .age h6 {
+        margin-bottom: 5px; 
+    }
+    .time-number {
+        padding-left: 10px; 
+    }
+    .social-media-icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-media-icon li {
+        margin-right: 15px; 
+    }
+    .popup-video {
+        max-width: 100%; 
+    }
+
+    .popup-description {
+        padding: 10px; 
+    }
+}

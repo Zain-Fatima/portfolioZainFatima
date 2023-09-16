@@ -1390,7 +1390,8 @@
 	    left: -52%;
 	}
 	.happy-satisfied{
-		width: 35%;
+		width: 30%;
+		height: 35%;
 	}
 	.svg-img:before{
 		left: 33.5%;
@@ -1598,8 +1599,9 @@
 }
 @media(max-width: 576px){
 	.happy-satisfied {
-	    width: 35%;
-	    left: 10%;
+	    width: 30%;
+		padding: 20px;
+		left: 6%;
 	}
 	.pagination ul li.prev a{
 		padding: 20px;
@@ -1656,6 +1658,36 @@
 	    align-items: center;
 	    justify-content: center;
 	    text-align: center;
+	}
+	ul.time-number{
+		padding-top: 20px;
+		padding-bottom: 40px;
+		margin: 10px 10px;
+	}
+	.counter-section {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #fff;
+		flex-wrap: wrap;
+	}
+	.counter {
+		flex: 0 0 calc(50% - 10px); /* Two boxes per line */
+		text-align: center;
+		border: 1px solid #ccc;
+		margin: 5px;
+		box-sizing: border-box;
+	}
+	.counter {
+        flex-basis: 100%; 
+    }
+	.popup-video {
+		width: 100%;  
+		max-width: 100%;  
+		height: auto; 
+	}
+	.popup-description .tech {
+		margin-bottom: 10px;
 	}
 	.edison {
     	padding: 40px;
@@ -1821,6 +1853,16 @@
 	ul.social-media-icon{
 		margin-top: 0;
 	}
+	.social-media-icon a.button.button--moema.button--text-thick.button--text-upper.button--size-s {
+		font-size: 12px; 
+		display: flex; 
+		width: 140px;
+	}
+	
+	.social-media-icon a.button.button--moema.button--text-thick.button--text-upper.button--size-s i {
+		margin-right: 0; 
+		font-size: xx-small;
+	}
 	ul.social-media-icon{
 		flex-wrap: wrap;
 	}
@@ -1828,23 +1870,22 @@
 		margin-top: 20px;
 		margin-left: -1px !important;
 	}
-	.button--moema {
-    	padding: 20px 25px;
-	}
 	.happy-satisfied{
-		width: 46%;
+		width: 40%;
+		padding: 12px;
+		left: 2%;
 	}
 	.user-data h2{
 		font-size: 30px;
 	}
 	.about-me h2{
-		font-size: 40px;
+		font-size: 30px;
 	}
 	ul.age li h6{
 		font-size: 16px;
 	}
 	ul.age li {
-    	padding: 16px 20px;
+    	padding: 16px 8px;
     }
     .portfolio-img figure.gap-top:hover .hover-data,.portfolio-img figure:hover .hover-data{
 		top: 70%;
@@ -1944,9 +1985,6 @@
 	    font-size: 30px;
 	    line-height: 40px;
 	}
-	.work-experience-two .hading p{
-
-	}
 	.work-experience-two .hading h2 {
     	font-size: 30px;
 	}
@@ -1998,8 +2036,15 @@
 }
 @media(max-width: 410px){
 	.happy-satisfied {
-	    width: 49%;
-	    top: 54%;
+	    width: 40%;
+		padding: 4%;
+		left: 1%;
+	}
+	.happy-satisfied h6 {
+		font-size: 14px;
+	}
+	.happy-satisfied p {
+		font-size: 12px;
 	}
 	.box {
     	width: 100%;
@@ -2058,9 +2103,6 @@
 	}
 	ul.age li h6 {
     	font-size: 14px;
-	}
-	.happy-satisfied p{
-		font-size: 14px;	
 	}
 	li.client-data:not(:last-child):after {
     	width: 310px;
@@ -2121,12 +2163,23 @@
 	.blog-data img {
     	width: 300px !important;
 	}
+	.happy-satisfied {
+	    width: 50%;
+		padding: 1%;
+		left: -2%;
+		padding-left: 5px;
+		height: auto;
+	}
+	.happy-satisfied h6 {
+		font-size: 14px;
+	}
+	.happy-satisfied p {
+		font-size: 12px;
+	}
 }
 
 @media (max-width: 768px) {
-	.col-lg-6 {
-		width: 100%;
-	}
+
 	.counter-section {
 		display: flex;
 		flex-wrap: wrap;
